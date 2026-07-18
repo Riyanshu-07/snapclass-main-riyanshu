@@ -72,13 +72,39 @@ An AI-powered attendance management system that uses **Face Recognition** and **
 ```text
 snapclass/
 ├── assets/
+│   ├── 1.png
+│   ├── 2.png
+│   ├── 3.png
+│   ├── 7.png
+│   ├── 8.png
+│   └── 9.png
 ├── src/
 │   ├── components/
+│   │   ├── dialog_attendence_result.py
+│   │   ├── dialog_auto_enroll.py
+│   │   ├── dialog_enroll.py
+│   │   ├── dialog_photo_add.py
+│   │   ├── dialog_voice_attendence.py
+│   │   ├── dialogue_create_subject.py
+│   │   ├── dialogue_share_subject.py
+│   │   ├── footer.py
+│   │   ├── home_header.py
+│   │   └── subject_card.py
 │   ├── database/
+│   │   ├── config.py
+│   │   └── db.py
 │   ├── images/
+│   │   ├── mascot-teacher.png
+│   │   └── rk.png
 │   ├── pipelines/
+│   │   ├── face_pipeline.py
+│   │   └── voice_pipeline.py
 │   ├── screens/
+│   │   ├── home_screen.py
+│   │   ├── student_screen.py
+│   │   └── teacher_screen.py
 │   └── ui/
+│       └── base_layout.py
 ├── .streamlit/
 ├── main.py
 ├── requirements.txt
