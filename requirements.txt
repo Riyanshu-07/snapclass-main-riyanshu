@@ -1,0 +1,28 @@
+streamlit
+
+#utilities
+numpy
+pandas
+
+# face recognization
+scikit-learn
+dlib-bin
+
+# ageitgey face recognition 
+git+https://github.com/ageitgey/face_recognition_models
+
+setuptools<70.0.0
+
+# database 
+supabase
+# pass koe encrypt krta hai
+bcrypt
+
+#  qr code
+segno
+# image preprocessing mai help krta hai
+pillow
+
+
+librosa
+resemblyzer
