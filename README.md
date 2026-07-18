@@ -73,9 +73,17 @@ An AI-powered attendance management system that uses **Face Recognition** and **
 snapclass/
 ├── assets/
 ├── src/
+│   ├── components/
+│   ├── database/
+│   ├── images/
+│   ├── pipelines/
+│   ├── screens/
+│   └── ui/
+├── .streamlit/
 ├── main.py
 ├── requirements.txt
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
 ---
